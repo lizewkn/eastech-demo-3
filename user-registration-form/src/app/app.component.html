@@ -1,0 +1,14 @@
+<!-- Add a form to capture user input and call the submitForm() method on submission -->
+<form #userForm (ngSubmit)="submitForm()">
+  <div>
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" [(ngModel)]="user.firstName" required>
+  </div>
+  <div>
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" [(ngModel)]="user.lastName" required>
+  </div>
+  <button type="submit">Submit</button>
+</form>
+<div *ngIf="successMessage">{{ successMessage }}</div>
+<div *ngIf="errorMessage">{{ errorMessage }}</div>
