@@ -62,4 +62,4 @@ The backend will be available at: http://localhost:8080/
 
 5. To fetch a specific user by ID, use the following endpoint: http://localhost:8080/users/{id}
 
-That's it! You have successfully set up and run the user registration form with the Spring Boot backend. Enjoy exploring and modifying the code to suit your needs! If you encounter any issues, feel free to check the troubleshooting section or reach out for help.
+You should have successfully set up and run the user registration form with the Spring Boot backend.
